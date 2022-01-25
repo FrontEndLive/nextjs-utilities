@@ -1,0 +1,11 @@
+.idea
+coverage
+node_modules
+.gitignore
+.npmignore
+jest.config.js
+next.config.js
+next-env.d.ts
+pnpm-lock.yaml
+tsconfig.json
+tsconfig.jest.json
