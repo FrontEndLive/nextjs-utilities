@@ -1,11 +1,12 @@
 {
   "name": "@frontendlive/nextjs-utils",
   "description": "Utilities for Next.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "test": "jest"
   },
   "main": "dist/index.ts",
+  "types": "types/index.d.ts",
   "dependencies": {
     "next": "12.0.10",
     "react": "17.0.2",

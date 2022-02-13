@@ -1,6 +1,6 @@
 import { NextPage } from 'next';
 
-type Page = NextPage & {
+export type NextPageWithRouting = NextPage & {
   route: {
     path: string;
     queryParams?: {
@@ -8,4 +8,3 @@ type Page = NextPage & {
     };
   }
 };
-export default Page;
