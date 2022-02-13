@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 
-import Link from './Link';
+import Link from '@/features/components/Link/';
 
 describe('Link', () => {
   it('renders without crashing', () => {
